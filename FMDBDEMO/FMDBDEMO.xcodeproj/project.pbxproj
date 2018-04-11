@@ -15,6 +15,12 @@
 		1B9F08D1207C651400376EFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F08D0207C651400376EFB /* main.m */; };
 		1B9F08DB207C651400376EFB /* FMDBDEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F08DA207C651400376EFB /* FMDBDEMOTests.m */; };
 		1B9F08E6207C651400376EFB /* FMDBDEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F08E5207C651400376EFB /* FMDBDEMOUITests.m */; };
+		1B9F08FF207C668400376EFB /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F08F5207C668400376EFB /* FMDatabase.m */; };
+		1B9F0900207C668400376EFB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F08F7207C668400376EFB /* FMDatabaseAdditions.m */; };
+		1B9F0901207C668400376EFB /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F08F9207C668400376EFB /* FMDatabasePool.m */; };
+		1B9F0902207C668400376EFB /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F08FB207C668400376EFB /* FMDatabaseQueue.m */; };
+		1B9F0903207C668400376EFB /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F08FE207C668400376EFB /* FMResultSet.m */; };
+		1B9F0906207C8BFC00376EFB /* NavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F0905207C8BFC00376EFB /* NavView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,19 @@
 		1B9F08E1207C651400376EFB /* FMDBDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMDBDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9F08E5207C651400376EFB /* FMDBDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBDEMOUITests.m; sourceTree = "<group>"; };
 		1B9F08E7207C651400376EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9F08F4207C668400376EFB /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		1B9F08F5207C668400376EFB /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		1B9F08F6207C668400376EFB /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		1B9F08F7207C668400376EFB /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		1B9F08F8207C668400376EFB /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		1B9F08F9207C668400376EFB /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		1B9F08FA207C668400376EFB /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		1B9F08FB207C668400376EFB /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		1B9F08FC207C668400376EFB /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		1B9F08FD207C668400376EFB /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		1B9F08FE207C668400376EFB /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		1B9F0904207C8BFC00376EFB /* NavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavView.h; sourceTree = "<group>"; };
+		1B9F0905207C8BFC00376EFB /* NavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +100,8 @@
 		1B9F08B5207C651400376EFB = {
 			isa = PBXGroup;
 			children = (
+				1B9F0907207C8C0600376EFB /* ThirdKu */,
+				1B9F08F3207C668400376EFB /* FMDB */,
 				1B9F08C0207C651400376EFB /* FMDBDEMO */,
 				1B9F08D9207C651400376EFB /* FMDBDEMOTests */,
 				1B9F08E4207C651400376EFB /* FMDBDEMOUITests */,
@@ -130,6 +151,33 @@
 				1B9F08E7207C651400376EFB /* Info.plist */,
 			);
 			path = FMDBDEMOUITests;
+			sourceTree = "<group>";
+		};
+		1B9F08F3207C668400376EFB /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				1B9F08F4207C668400376EFB /* FMDatabase.h */,
+				1B9F08F5207C668400376EFB /* FMDatabase.m */,
+				1B9F08F6207C668400376EFB /* FMDatabaseAdditions.h */,
+				1B9F08F7207C668400376EFB /* FMDatabaseAdditions.m */,
+				1B9F08F8207C668400376EFB /* FMDatabasePool.h */,
+				1B9F08F9207C668400376EFB /* FMDatabasePool.m */,
+				1B9F08FA207C668400376EFB /* FMDatabaseQueue.h */,
+				1B9F08FB207C668400376EFB /* FMDatabaseQueue.m */,
+				1B9F08FC207C668400376EFB /* FMDB.h */,
+				1B9F08FD207C668400376EFB /* FMResultSet.h */,
+				1B9F08FE207C668400376EFB /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		1B9F0907207C8C0600376EFB /* ThirdKu */ = {
+			isa = PBXGroup;
+			children = (
+				1B9F0904207C8BFC00376EFB /* NavView.h */,
+				1B9F0905207C8BFC00376EFB /* NavView.m */,
+			);
+			path = ThirdKu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +314,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B9F08C6207C651400376EFB /* ViewController.m in Sources */,
+				1B9F0901207C668400376EFB /* FMDatabasePool.m in Sources */,
 				1B9F08D1207C651400376EFB /* main.m in Sources */,
+				1B9F0902207C668400376EFB /* FMDatabaseQueue.m in Sources */,
 				1B9F08C3207C651400376EFB /* AppDelegate.m in Sources */,
+				1B9F0906207C8BFC00376EFB /* NavView.m in Sources */,
+				1B9F08FF207C668400376EFB /* FMDatabase.m in Sources */,
+				1B9F0903207C668400376EFB /* FMResultSet.m in Sources */,
+				1B9F0900207C668400376EFB /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

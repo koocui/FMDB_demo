@@ -7,6 +7,15 @@
 //
 
 #import "ViewController.h"
+#import "FMDB.h"
+
+//#import "agreeFirstNav.h"
+//#import "AddViewController.h"
+//
+//#import "AlterViewController.h"
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
 @interface ViewController ()
 
