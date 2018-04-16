@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7CED2620847BCC00A569C6 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7CED2520847BCC00A569C6 /* AddViewController.m */; };
+		1B7CED2920847C6500A569C6 /* AlterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7CED2820847C6500A569C6 /* AlterViewController.m */; };
 		1B9F08C3207C651400376EFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F08C2207C651400376EFB /* AppDelegate.m */; };
 		1B9F08C6207C651400376EFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F08C5207C651400376EFB /* ViewController.m */; };
 		1B9F08C9207C651400376EFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9F08C7207C651400376EFB /* Main.storyboard */; };
@@ -41,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B7CED2420847BCC00A569C6 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		1B7CED2520847BCC00A569C6 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		1B7CED2720847C6500A569C6 /* AlterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlterViewController.h; sourceTree = "<group>"; };
+		1B7CED2820847C6500A569C6 /* AlterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlterViewController.m; sourceTree = "<group>"; };
 		1B9F08BE207C651400376EFB /* FMDBDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMDBDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9F08C1207C651400376EFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B9F08C2207C651400376EFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -126,6 +132,10 @@
 				1B9F08C2207C651400376EFB /* AppDelegate.m */,
 				1B9F08C4207C651400376EFB /* ViewController.h */,
 				1B9F08C5207C651400376EFB /* ViewController.m */,
+				1B7CED2420847BCC00A569C6 /* AddViewController.h */,
+				1B7CED2520847BCC00A569C6 /* AddViewController.m */,
+				1B7CED2720847C6500A569C6 /* AlterViewController.h */,
+				1B7CED2820847C6500A569C6 /* AlterViewController.m */,
 				1B9F08C7207C651400376EFB /* Main.storyboard */,
 				1B9F08CA207C651400376EFB /* Assets.xcassets */,
 				1B9F08CC207C651400376EFB /* LaunchScreen.storyboard */,
@@ -313,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7CED2620847BCC00A569C6 /* AddViewController.m in Sources */,
 				1B9F08C6207C651400376EFB /* ViewController.m in Sources */,
 				1B9F0901207C668400376EFB /* FMDatabasePool.m in Sources */,
 				1B9F08D1207C651400376EFB /* main.m in Sources */,
@@ -322,6 +333,7 @@
 				1B9F08FF207C668400376EFB /* FMDatabase.m in Sources */,
 				1B9F0903207C668400376EFB /* FMResultSet.m in Sources */,
 				1B9F0900207C668400376EFB /* FMDatabaseAdditions.m in Sources */,
+				1B7CED2920847C6500A569C6 /* AlterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

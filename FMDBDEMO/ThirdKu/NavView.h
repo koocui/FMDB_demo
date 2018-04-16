@@ -15,5 +15,5 @@
 @property(strong,nonatomic) UILabel  * titleLab;
 @property(strong,nonatomic) UIButton * leftBtn;
 @property(strong,nonatomic) UIButton * lab2Btn;
--(instancetype)initWithLeftBtn:(NSString*)leftBtn andWithBgImg:(UIImageView*)bgImg andTitle:(UILabel*)titleLabel andWithRightBtn:(UIButton*)ringtBtn andwithLab1Btn:(UIButton*)lab1Btn andWithLab2Btn:(UIButton*)lab2Btn;;
+-(instancetype)initWithLeftBtn:(NSString*)leftBtn andWithBgImg:(UIImageView*)bgImg andTitle:(NSString*)titleLabel andWithRightBtn:(NSString*)ringtBtn andwithLab1Btn:(NSString*)lab1Btn andWithLab2Btn:(NSString*)lab2Btn;;
 @end
